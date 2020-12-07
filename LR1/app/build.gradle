@@ -23,12 +23,12 @@ android {
     }
     productFlavors{
         free{
-            applicationId "com.example.gradleStuff.free"
+            applicationId "com.example.lr1"
             versionName "1.0-free"
             buildConfigField "boolean", "PAID_VERSION", "false"
         }
         premium{
-            applicationId "com.example.gradleStuff.premium"
+            applicationId "com.example.lr1"
             versionName "1.0-premium"
             buildConfigField "boolean", "PAID_VERSION", "true"
         }

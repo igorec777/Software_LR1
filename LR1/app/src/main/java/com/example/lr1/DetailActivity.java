@@ -35,21 +35,8 @@ public class DetailActivity extends MainActivity implements AdapterView.OnItemSe
         category = arguments.getString("category");
         ((TextView)findViewById(R.id.category)).setText(category);
 
-        if(BuildConfig.PAID_VERSION)
-        {
-            findViewById(R.id.copySource).setEnabled(true);
-            findViewById(R.id.copyResult).setEnabled(true);
-            findViewById(R.id.pasteSource).setEnabled(true);
-            findViewById(R.id.switchUnits).setEnabled(true);
-            clipboardManager = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-        }
-        else
-        {
-            findViewById(R.id.copySource).setEnabled(false);
-            findViewById(R.id.copyResult).setEnabled(false);
-            findViewById(R.id.pasteSource).setEnabled(false);
-            findViewById(R.id.switchUnits).setEnabled(false);
-        }
+
+        clipboardManager = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 
         if (category.equals("Вес и масса"))
             chosenCategory = R.array.weight;
