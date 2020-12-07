@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KeyboardFragment">
+
+    <Button
+        android:id="@+id/clearOne"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="92dp"
+        android:text="X"
+        android:onClick="ClearOneClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clearAll"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="32dp"
+        android:text="C"
+        android:onClick="ClearAllClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/comma"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="212dp"
+        android:onClick="DotClick"
+        android:text="."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num0"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="212dp"
+        android:text="0"
+        android:onClick="Num0Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="212dp"
+        android:text="-"
+        android:onClick="MinusClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num9"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="152dp"
+        android:text="9"
+        android:onClick="Num9Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num8"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="152dp"
+        android:text="8"
+        android:onClick="Num8Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num7"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="152dp"
+        android:text="7"
+        android:onClick="Num7Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num6"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="92dp"
+        android:text="6"
+        android:onClick="Num6Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num5"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="92dp"
+        android:text="5"
+        android:onClick="Num5Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num4"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="92dp"
+        android:text="4"
+        android:onClick="Num4Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num3"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="32dp"
+        android:text="3"
+        android:onClick="Num3Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num1"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="1"
+        android:onClick="Num1Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/num2"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:text="2"
+        android:onClick="Num2Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
