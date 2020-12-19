@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="weight">
+        <item>миллиграммы</item>
+        <item>граммы</item>
+        <item>килограммы</item>
+    </string-array>
+    <string-array name="time">
+        <item>секунды</item>
+        <item>минуты</item>
+        <item>часы</item>
+    </string-array>
+    <string-array name="distance">
+        <item>миллиметры</item>
+        <item>сантиметры</item>
+        <item>дециметры</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

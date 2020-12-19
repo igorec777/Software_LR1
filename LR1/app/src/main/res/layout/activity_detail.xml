@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AC8484">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="31dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="572dp"
+        android:background="#9BC8B4"
+        android:backgroundTint="#956464"
+        android:clickable="true"
+        android:onClick="BackClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/picture2" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="297dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="560dp"
+        android:background="#AC8484"
+        android:gravity="center"
+        android:text="Category"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <fragment
+        android:id="@+id/fragmentKeyboard"
+        android:name="com.example.lr1.KeyboardFragment"
+        android:layout_width="320dp"
+        android:layout_height="276dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout="@layout/fragment_keyboard" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.lr1.DataFragment"
+        android:layout_width="324dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_data" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
