@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mainActionBar">Мои тренировки</string>
+    <string name="settingsActionBar">Настройки</string>
+    <string name="trainDetailActionBar">Параметры тренировки</string>
+    <string name="trainProcessActionBar">Ход тренировки</string>
+
+    <string name="trainExitTitle">Выход</string>
+    <string name="trainExitMessage">Завершить тренировку?</string>
+    <string name="trainExitPositive">Да</string>
+    <string name="trainExitNegative">Нет</string>
+
+    <string name="startTrain">Начать</string>
+    <string name="pauseTrain">Пауза</string>
+    <string name="continueTrain">Продолжить</string>
+    <string name="finishTrain">Финиш</string>
+
+    <string name="app_name">Таймер</string>
+    <string name="trainCount">Всего:</string>
+    <string name="color">Цвет</string>
+    <string name="save">Сохранить</string>
+    <string name="freeOfSet">Отдых между \nсетами</string>
+    <string name="cycleNum">Циклы</string>
+    <string name="workTime">Работа</string>
+    <string name="title">Название</string>
+    <string name="prepTime">Подготовка</string>
+    <string name="freeTime">Отдых</string>
+    <string name="setNum">Сеты</string>
+    <string name="trainName">Тренировка1</string>
+    <string name="systemSettings">Настройки</string>
+    <string name="changeTrain">Изменить</string>
+    <string name="dropTrain">Удалить</string>
+    <string name="viewCategory">Вид</string>
+    <string name="theme">Тёмная тема</string>
+    <string name="sizeDialogTitle">Введите размер шрифта</string>
+    <string name="sizeSummary">Устанавливает новый размер шрифта</string>
+    <string name="sizeTitle">Размер шрифта</string>
+    <string name="dataCategory">Данные</string>
+    <string name="clearTrainSummary">Удалить все сохранённые тренировки</string>
+    <string name="clearTrainTitle">Стереть данные</string>
+    <string name="currentStage">Подготовка</string>
+    <string name="playPause">Начать</string>
+</resources>
