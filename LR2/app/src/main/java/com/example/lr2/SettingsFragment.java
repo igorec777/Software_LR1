@@ -42,7 +42,7 @@ public class SettingsFragment extends PreferenceFragmentCompat
             }
         });
 
-        Preference button = findPreference("clearTrains");
+        Preference button = findPreference("clearData");
 
         button.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener()
         {
@@ -51,8 +51,8 @@ public class SettingsFragment extends PreferenceFragmentCompat
             public boolean onPreferenceClick(Preference preference)
             {
                 new AlertDialog.Builder(getActivity())
-                        .setTitle("Удаление")
-                        .setMessage("Удалить все тренировки?")
+                        .setTitle("Удаление данных")
+                        .setMessage("Удалить все пользовательские данные?")
                         .setPositiveButton("Да", new DialogInterface.OnClickListener()
                         {
                             public void onClick(DialogInterface dialog, int whichButton)
@@ -60,8 +60,8 @@ public class SettingsFragment extends PreferenceFragmentCompat
                                 SharedPreferences prefs = PreferenceManager
                                         .getDefaultSharedPreferences(getContext());
                                 prefs.edit().clear().commit();
-                                DatabaseHelper dbHelper = new DatabaseHelper(getContext(),TABLE_NAME, 2);
-                                SQLiteDatabase db = dbHelper.getWritableDatabase();
+                                DatabaseHelper dbHelper = new DatabaseHelper(getContext(),TABLE_NAME, 1);
+                                dbHelper.DeleteAllRecords(TABLE_NAME);
                                 dialog.dismiss();
                             }
                         })

@@ -24,7 +24,7 @@
         android:title="@string/dataCategory">
 
         <Preference
-            android:key="clearTrains"
+            android:key="clearData"
             android:summary="@string/clearTrainSummary"
             android:title="@string/clearTrainTitle" />
     </PreferenceCategory>

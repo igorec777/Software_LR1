@@ -102,6 +102,15 @@ public class DatabaseHelper extends SQLiteOpenHelper
         return result;
     }
 
+    public void DeleteAllRecords(String tableName)
+    {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DROP TABLE IF EXISTS " + tableName);
+        onCreate(db);
+        db.close();
+        this.close();
+    }
+
     public void DeleteRecordById(String tableName, int id)
     {
         String query = "DELETE FROM " + tableName + " WHERE id == " + id;
