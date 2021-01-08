@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BoardGridView">
+        <attr name="fieldColor" format="color"/>
+        <attr name="gameInitialize" format="boolean"/>
+    </declare-styleable>
+</resources>
