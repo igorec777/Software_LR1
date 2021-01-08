@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="view"
+        android:minHeight="2dp"
+        android:title="@string/viewCategory">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="theme"
+            android:title="@string/theme" />
+
+        <EditTextPreference
+            android:defaultValue="14"
+            android:dialogTitle="@string/sizeDialogTitle"
+            android:key="textSize"
+            android:summary="@string/sizeSummary"
+            android:title="@string/sizeTitle" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="data"
+        android:title="@string/dataCategory">
+
+        <Preference
+            android:key="clearData"
+            android:summary="@string/clearTrainSummary"
+            android:title="@string/clearTrainTitle" />
+    </PreferenceCategory>
+</PreferenceScreen>
